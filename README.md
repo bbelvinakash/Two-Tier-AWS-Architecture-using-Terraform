@@ -69,5 +69,6 @@ This repository contains declarative Terraform code to deploy a multi-AZ AWS net
 ├── aws.tf             # Core module invocations
 ├── variables.tf        # Input variable definitions
 ├── outputs.tf          # Useful resource outputs (VPC ID, IPs)
-├── terraform.tfvars    # Environment-specific configuration
+├── locals.tf          # Local values in Terraform allow you to define reusable expressions and values
 └── README.md           # Project Documentation
+    
